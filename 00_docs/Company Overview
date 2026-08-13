@@ -1,0 +1,23 @@
+# Business Scenario
+## Company Overview
+Contoso Connect Solutions, Inc. — a mid-sized Philippine BPO providing outsourced customer support (voice, email, chat) for international retail and telecom clients. Its 24/7 contact center runs ~400 agents in Team Lead–led teams, with every interaction logged as a support ticket.
+
+## Business Requirement
+Operations Managers and Team Leads need to monitor daily contact-center performance:
+
+- Ticket volumes
+- Resolution times and backlog
+- Customer satisfaction (CSAT)
+
+This lets them staff shifts correctly, coach agents, and report SLA compliance to each client — with answers available on demand and in plain English, without waiting on the analytics team.
+
+## The Challenge
+All ticket data sits in a single operational table, but the people who need insights can't get to it quickly:
+
+1. Reporting is a bottleneck. Every new question — "Which agents had the lowest CSAT this week?", "How many tickets breached SLA yesterday for Client A?" — becomes a request to a small BI/analyst team. Turnaround is often 1–2 days.
+2. Supervisors aren't technical. Team Leads don't know SQL, DAX, or how to build a Power BI report, so they can't self-serve — even for simple lookups.
+3. Decisions are delayed. By the time a report arrives, the shift or coaching moment has passed, and SLA breaches are caught after the fact instead of being prevented.
+
+## The Solution
+A Fabric Data Agent built on the ticket data lets any supervisor ask questions in natural language and get instant, data-grounded answers — no SQL, no report-building, no waiting on analysts. Supervisors self-serve in seconds instead of days, and the analytics team is freed from routine ad-hoc requests.
+
