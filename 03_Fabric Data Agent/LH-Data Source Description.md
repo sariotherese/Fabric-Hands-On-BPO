@@ -1,0 +1,3 @@
+# Lakehouse Data Source Description
+
+Contains only the `CSATSurveyResponse` flat table, with one row per completed survey. Use it for row-level feedback, comments, ad-hoc aggregations, and survey fields not represented in the ontology, including response date, courtesy, resolution quality, wait time, first-contact resolution, NPS, and response time. Prefer the ontology for governed business concepts, standard metrics, and relationships among tickets, agents, teams, clients, channels, and dates. `TicketKey` identifies the related ticket but does not provide those attributes; do not infer relationships. This source contains respondents only: never treat missing surveys as zero or claim results represent all customers without valid response-rate analysis.
